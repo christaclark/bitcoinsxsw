@@ -65,13 +65,11 @@
     
             <div class="collapse navbar-collapse" id="nav">
               <ul class="nav navbar-nav navbar-right uppercase">
-                <li><a data-scroll href="#overview">Overview</a></li>
+                <li><a data-scroll href="#overview">About</a></li>
+                <li><a data-scroll href="#sponsors">Sponsors</a></li>
                 <li><a data-scroll href="#speakers">Speakers</a></li>
                 <li><a data-scroll href="#schedule">Schedule</a></li>
                 <li><a data-scroll href="#venue">Venue</a></li>
-                <li><a data-scroll href="#sponsors">Sponsors</a></li>
-                <li><a data-scroll href="#faq-gallery">FAQ</a></li>
-                <li><a data-scroll href="#contact">Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div>
@@ -87,9 +85,9 @@
                             <h3>March 16th 2015, Austin, TX</h3>
                         </div>
                         
-                        <div class="col-md-4 col-lg-4 col-md-offset-4 text-center">
+                        <!--div class="col-md-4 col-lg-4 col-md-offset-4 text-center">
                             <div id="countdown"></div>
-                        </div>
+                        </div-->
                     </div>
                 </div>
             </div>
@@ -107,46 +105,64 @@
                          Our goal is to educate, engage, and excite you about Bitcoin! We want you to spend the day with us and feel like an expert on the topic by the end of the day! We have a great lineup of speakers from big bitcoin companies to non-profits.</p>
                     </div>
                     
-                    
-                    <!-- MILESTONE 
-                    <div id="milestone">
-                        <div class="col-lg-8 col-lg-offset-2 text-center">
-                            <div class="row">
-                            
-                                <div class="fact col-xs-6 col-md-3 col-lg-3">
-                                    <p class="timer" data-to="500" data-speed="10000"></p>
-                                    <i class="fa fa-2x fa-users"></i>
-                                    <p>participants</p>
-                                    
-                                </div>
-                            
-                            
-                                <div class="fact col-xs-6 col-md-3 col-lg-3">
-                                    <p class="timer" data-to="5" data-speed="10000"></p>
-                                    <i class="fa fa-2x fa-power-off"></i>
-                                    <p>sessions</p>
-                                </div>
-                            
-                                <div class="fact col-xs-6 col-md-3 col-lg-3">
-                                    <p class="timer" data-to="20" data-speed="10000"></p>
-                                    <i class="fa fa-2x fa-microphone"></i>
-                                    <p>speakers</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                    	<h3>Hurry Up! Only <span class="timer" data-from="575" data-to="198" data-speed="10000"></span> seats</h3>
-                    	<a class="button button-big button-dark" data-scroll href="#register">register</a>
-                    </div>
-                    -->
+                
                    
                 </div>
             </div>
         </section>
+
+
+
+
+
+         <!-- SUBSCRIBE -->
+        <div id="subscribe">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h3 class="text-center">Be the first to get updates!
+                        </h3>
+                        
+                        <div class="row">
+                            <div class="col-lg-9"> 
+                                <input type="email" id="newsletter_email">
+                            </div> 
+                            <div class="col-lg-3">     
+                                <button class="button button-big button-light" onclick="newsletter_send();">subscribe</button>
+                            </div>
+                        </div>
+                        
+                    </div>  
+                </div>
+            </div>
+        </div>
+        
+    
+        
+        <!-- SPONSORS -->
+        <section id="sponsors">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="uppercase">sponsors</h2>
+                    
+                        
+                        <div class="sponsor-slider">
+                            <img class="img-responsive" src="img/logo_01.png" alt="logo">
+                            <img class="img-responsive" src="img/logo_02.png" alt="logo">
+                            <img class="img-responsive" src="img/logo_03.png" alt="logo">
+                            <img class="img-responsive" src="img/logo_03.png" alt="logo">
+                            <img class="img-responsive" src="img/logo_03.png" alt="logo">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+
         
         <!-- SPEAKERS -->
         <section id="speakers">
@@ -329,8 +345,8 @@
                                 <figure>
                                     <img class="img-responsive" src="img/speaker8.png" alt="">
                                     <figcaption>
-                                        <h4>Angelina Wood</h4>
-                                        <p>Marketing Strategist at CEX.IO</p>
+                                        <h4>Jake Benson</h4>
+                                        <p>Founder and CEO of LibraTax</p>
                                         <div class="social">
                                             <a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
                                             <a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
@@ -338,11 +354,11 @@
                                     </figcaption>
                                 </figure>
                                 
-                                <h4>Angelina Wood</h4>
-                                <span class="title">CEX.IO</span>
+                                <h4>Jake Benson</h4>
+                                <span class="title">Libratax</span>
                             </div>
 
-                             <!-- speaker 12 -->
+                             <!-- speaker 11 -->
                             <div class="speaker col-xs-12 col-sm-4 col-md-3 col-lg-3">
                                 <figure>
                                     <img class="img-responsive" src="img/speaker8.png" alt="">
@@ -378,7 +394,6 @@
                                 <span class="title">Let’s Talk Bitcoin</span>
                             </div>
 
-                           
 
                             <!-- speaker 13 -->
                             <div class="speaker col-xs-12 col-sm-4 col-md-3 col-lg-3">
@@ -523,7 +538,7 @@
                                 <h4>Adam Draper</h4>
                                 <span class="title">Boost VC</span>
                             </div>
-  
+                    
                         </div>
                     </div>
                 </div>
@@ -537,6 +552,7 @@
                 	<div class="col-lg-10 col-lg-offset-1">
                     	<h2 class="uppercase text-center">Schedule</h2>
                         
+                        <!--
                         <div id="days" class="owl-carousel">
                         	<div class="item uppercase">
                             	<h4 class="uppercase hidden-xs">saturday</h4>
@@ -557,7 +573,8 @@
                             	<h4 class="uppercase hidden-xs">tuesday</h4>
                             	<h5>day 4</h5>
                             </div>
-						</div>
+						</div> 
+                        -->
                         
                         <div id="timetable" class="owl-carousel owl-theme">
                         
@@ -568,74 +585,113 @@
                                     <div class="event-inner">
                                         <div class="icon">
                                             <i class="fa fa-2x fa-clock-o"></i>
-                                            <span class="time">09.00 AM</span>
+                                            <span class="time">9:30 - 10:30 AM</span>
                                         </div>
                                         
                                         <div class="description">
-                                            <h3>Sed vulputate sem magna</h3>
-                                            <p>Vestibulum vel accumsan arcu. Duis nisl purus, interdum nec arcu nec, rutrum fringilla neque. Pellentesque vestibulum turpis sit amet venenatis faucibus.</p>
-                                            <span class="name">Leo Davis</span>
+                                            <h3>What is Bitcoin?</h3>
+                                            <p>Presented by BitPay.com - A panel discussion covering the history of Bitcoin, what it is, &amp; it’s implications as a global digital currency. </p>
+                                            <span class="name">Sean Neville, Nic Cary, Stephen Pair, &amp; Pamela Morgan</span>
                                         </div>
                                     </div>
                                 </div>
+
+                                <!--div class="event">
+                                    <div class="event-inner">
+                                        <div class="icon">
+                                            <i class="fa fa-2x fa-group"></i>
+                                            <span class="time">10:30 AM</span>
+                                        </div>
+                                        
+                                        <div class="description">
+                                            <h3>Networking</h3>
+                                            <p>Feel free to stay in the ballroom and netowrk.</p>
+                                        </div>
+                                    </div>
+                                </div-->
                                 
                                 <div class="event">
                                     <div class="event-inner">
                                         <div class="icon">
                                             <i class="fa fa-2x fa-clock-o"></i>
-                                            <span class="time">10.30 AM</span>
+                                            <span class="time">11:00 - 12:00 PM</span>
                                         </div>
                                         
                                         <div class="description">
-                                            <h3>Morbi semper ac diam</h3>
-                                            <p>Vestibulum tincidunt aliquam feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia</p>
-                                            <span class="name">Danielle Grant</span>
+                                            <h3>Bitcoin 2.0</h3>
+                                            <p>Presented by Gyft.com - A panel discussion on how to improve Bitcoin including the role of sidechains, altcoins &amp; exchanges.</p>
+                                            <span class="name">Vitalik Buterin, Joyce Kim, Charlie Lee, &amp; Constance Choi</span>
                                         </div>
                                     </div>
                                 </div>
                                 
+                                
+
                                 <div class="event">
                                     <div class="event-inner">
                                         <div class="icon">
-                                            <i class="fa fa-2x fa-cutlery"></i>
-                                            <span class="time">12.00 PM</span>
+                                            <i class="fa fa-2x fa-clock-o"></i>
+                                            <span class="time">12:30 - 1:30 PM</span>
                                         </div>
                                         
                                         <div class="description">
-                                            <h3>Launch</h3>
+                                            <h3>A Future with Bitcoin</h3>
+                                            <p>Presented by LibraTax.com - Four talks on topics that are relevant to Bitcoin becoming a part of mainstream culture and finance.</p>
+                                            <span class="name">Marco Santori, Jake Benson, Dan Elitzer, &amp; Andreas Antonopoulos</span>
                                         </div>
                                     </div>
                                 </div>
+                                
+                                
+
+                                <!--div class="event">
+                                    <div class="event-inner">
+                                        <div class="icon">
+                                            <i class="fa fa-2x fa-video-camera"></i>
+                                            <span class="time">2:00 PM</span>
+                                        </div>
+                                        
+                                        <div class="description">
+                                            <h3>Must leave room</h3>
+                                            <p>During this hour, the ballroom will be used to film the main SXSW keynote.</p>
+                                        </div>
+                                    </div>
+                                </div-->
+
                                 
                                 <div class="event">
                                     <div class="event-inner">
                                         <div class="icon">
                                             <i class="fa fa-2x fa-clock-o"></i>
-                                            <span class="time">01.30 PM</span>
+                                            <span class="time">3:30 - 4:30 PM</span>
                                         </div>
                                         
                                         <div class="description">
-                                            <h3>Ut posuere purus in elementum tincidunt</h3>
-                                            <p>Integer ut felis diam. Duis sit amet sapien non ipsum ornare consequat. Nunc suscipit ut massa a adipiscing. Integer ac convallis diam. In sagittis eleifend urna in porttitor.</p>
-                                            <span class="name">Jayden Hawkins</span>
+                                            <h3>Impact on Developing World</h3>
+                                            <p>Presented by ChangeTip.com - A panel discussion covering how Bitcoin is empowering the developing world through banking, charity, and more.</p>
+                                            <span class="name">Sebastian Serrano, Connie Gallippi, Peter Smith, &amp; Sean Percival</span>
                                         </div>
                                     </div>
                                 </div>
+
                                 
+
                                 <div class="event">
                                     <div class="event-inner">
                                         <div class="icon">
                                             <i class="fa fa-2x fa-clock-o"></i>
-                                            <span class="time">03.00 PM</span>
+                                            <span class="time">5:00 - 6:00 PM</span>
                                         </div>
                                         
                                         <div class="description">
-                                            <h3>Proin luctus enim</h3>
-                                            <p>Proin luctus enim mauris, vitae tristique nisi suscipit nec. Phasellus euismod gravida est, id sagittis ligula posuere ac.</p>
-                                            <span class="name">Susan Robertson</span>
+                                            <h3>Real World Applications</h3>
+                                            <p>Presented by Chain.com - A panel on why Bitcoin is a groundbreaking platform, what entrepreneurs are doing with it, &amp; future technologies.</p>
+                                            <span class="name">Vinny Lingham, Nick Sullivan, Adam Ludwin, &amp; Adam Draper</span>
                                         </div>
                                     </div>
                                 </div>
+
+                               
                             
                             </div>
                             
@@ -698,260 +754,12 @@
             </div>           
             
         </section>
-        
-        <!-- TESTIMONIAL -->
-        <section id="testimonial" >
-        	<div class="container">
-            	<div class="row">
-                	<div class="col-lg-10 col-lg-offset-1">
-                        <div id="quote" class="owl-carousel owl-theme">
-                        
-                            <div class="item text-center">
-                            	<img class="img-circle" src="img/testimonial1.png" alt="">
-                                <div>
-                                    <p>Aliquam faucibus sodales metus, commodo posuere lacus convallis eu. Donec dictum urna in dignissim cursus. Nunc gravida leo nisi, a sodales nibh viverra.</p>
-                                    <h4 class="uppercase">Dean Nelson</h4>
-                                </div>
-                        	</div>
-                            
-                            <div class="item text-center">
-                            	<img class="img-circle" src="img/testimonial2.png" alt="">
-                                <div>
-                                    <p>Aliquam faucibus sodales metus, commodo posuere lacus convallis eu. Donec dictum urna in dignissim cursus. Nunc gravida leo nisi, a sodales nibh viverra.</p>
-                                    <h4 class="uppercase">Dean Nelson</h4>
-                                </div>
-                        	</div>
-                            
-                            <div class="item text-center">
-                            	<img class="img-circle" src="img/testimonial3.png" alt="">
-                                <div>
-                                    <p>Aliquam faucibus sodales metus, commodo posuere lacus convallis eu. Donec dictum urna in dignissim cursus. Nunc gravida leo nisi, a sodales nibh viverra.</p>
-                                    <h4 class="uppercase">Dean Nelson</h4>
-                                </div>
-                        	</div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- SPONSORS -->
-        <section id="sponsors">
-        	<div class="container">
-            	<div class="row">
-                	<div class="col-lg-12 text-center">
-                		<h2 class="uppercase">sponsors</h2>
-                    
-                        <h3 class="uppercase">gold partners</h3>
-                        <div class="sponsor-slider">
-                            <img class="img-responsive" src="img/logo_01.png" alt="logo">
-                            <img class="img-responsive" src="img/logo_02.png" alt="logo">
-                            <img class="img-responsive" src="img/logo_03.png" alt="logo">
-                            
-                        </div>
-                        
-                        <h3 class="uppercase">silver partners</h3>
-                        <div class="sponsor-slider">
-                        	<img class="img-responsive" src="img/logo_04.png" alt="logo">
-                            <img class="img-responsive" src="img/logo_05.png" alt="logo">
-                            <img class="img-responsive" src="img/logo_06.png" alt="logo">
-                            <img class="img-responsive" src="img/logo_07.png" alt="logo">
-                            <img class="img-responsive" src="img/logo_08.png" alt="logo">
-                            <img class="img-responsive" src="img/logo_09.png" alt="logo">
-                        </div>
-                        
-                        <h3 class="uppercase">community partners</h3>
-                        <div class="sponsor-slider">
-                            <img class="img-responsive" src="img/logo_10.png" alt="logo">
-                            <img class="img-responsive" src="img/logo_11.png" alt="logo">
-                            <img class="img-responsive" src="img/logo_12.png" alt="logo">
-                        </div>
-                        
-                        <p class="lead uppercase">Become a sponsor</p>
-                        <p>Interested in becoming a sponsor? Learn about opportunities and benefits.</p>
-                        <a class="button button-dark" href="#">request info</a>
-                    </div>
-                    
-                    
-                </div>
-            </div>
-        </section>
-        
-        <!-- SUBSCRIBE -->
-        <div id="subscribe">
-        	<div class="container">
-            	<div class="row">
-                	<div class="col-lg-8 col-lg-offset-2">
-                    	<h3 class="text-center">Be the first to get nearly updates
-                        </h3>
-                        
-                        <div class="row">
-                            <div class="col-lg-9"> 
-                                <input type="email" id="newsletter_email">
-                            </div> 
-                            <div class="col-lg-3">     
-                                <button class="button button-big button-light" onclick="newsletter_send();">subscribe</button>
-                            </div>
-                        </div>
-                        
-                    </div>  
-                </div>
-            </div>
-        </div>
-        
-		<!-- FAQ and GALLERY -->
-		<section id="faq-gallery">
-        	<div class="container">
-            	<div class="row">
-                    <div class="col-md-6 col-lg-6">
-                        <div class="panel-group" id="faq">
-                          <h3 class="uppercase">faq</h3>
-                          <p>Suspendisse mattis tempus erat, ac aliquam lectus</p>
-                          
-                          <div class="panel panel-default">
-                            <div class="panel-heading">
-                              <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#faq" href="#collapseOne" class="collapsed">
-                                  <i class="fa fa-2x fa-plus-circle"></i> Mauris id vestibulum eros
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="collapseOne" class="panel-collapse collapse" style="height: 0px;">
-                              <div class="panel-body">
-                                <p class="small">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
-                              </div>
-                            </div>
-                          </div>
-                          
-                          <div class="panel panel-default">
-                            <div class="panel-heading">
-                              <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#faq" href="#collapseTwo" class="collapsed">
-                                  <i class="fa fa-2x fa-plus-circle"></i> Phasellus fermentum dolor commodo
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse">
-                              <div class="panel-body">
-                                <p class="small">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.</p>
-                              </div>
-                            </div>
-                          </div>
-                          
-                          <div class="panel panel-default">
-                            <div class="panel-heading">
-                              <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#faq" href="#collapseThree" class="collapsed">
-                                  <i class="fa fa-2x fa-plus-circle"></i> Etiam nec sem mollis
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="collapseThree" class="panel-collapse collapse">
-                              <div class="panel-body">
-                                <p class="small">Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-                              </div>
-                            </div>
-                          </div>
-                          
-                          <div class="panel panel-default">
-                            <div class="panel-heading">
-                              <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#faq" href="#collapseFour" class="collapsed">
-                                  <i class="fa fa-2x fa-plus-circle"></i> Etiam suscipit a velit volutpat dictum
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="collapseFour" class="panel-collapse collapse">
-                              <div class="panel-body">
-                                <p class="small"> Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-                              </div>
-                            </div>
-                          </div>
-                          
-                          <div class="panel panel-default">
-                            <div class="panel-heading">
-                              <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#faq" href="#collapseFive" class="collapsed">
-                                  <i class="fa fa-2x fa-plus-circle"></i> Nulla quis adipiscing nisi
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="collapseFive" class="panel-collapse collapse">
-                              <div class="panel-body">
-                                <p class="small">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</p>
-                              </div>
-                            </div>
-                          </div>
-                          
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6 col-lg-6">
-                    	<div id="gallery">
-                        	<h3>Past events photos</h3>
-                            <p>Proin eu malesuada leo, eu aliquet lorem. In vitae condimentum</p>
-                        	<div class="row">
-                            	<a class="image-link col-md-4 col-lg-4" href="img/gallery-img1.png"><img class="img-responsive " src="img/thumb1.png" alt=""></a>
-                                <a class="image-link col-md-4 col-lg-4" href="img/gallery-img2.png"><img class="img-responsive" src="img/thumb2.png" alt=""></a>
-                                <a class="image-link col-md-4 col-lg-4" href="img/gallery-img3.png"><img class="img-responsive" src="img/thumb3.png" alt=""></a>
-                                <a class="image-link col-md-4 col-lg-4" href="img/gallery-img4.png"><img class="img-responsive" src="img/thumb4.png" alt=""></a>
-                                <a class="image-link col-md-4 col-lg-4" href="img/gallery-img5.png"><img class="img-responsive" src="img/thumb5.png" alt=""></a>
-                                <a class="image-link col-md-4 col-lg-4" href="img/gallery-img6.png"><img class="img-responsive" src="img/thumb6.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-    
+
         
-		<!-- CONTACT -->
-        <section id="contact">
-        	
-             <!-- map -->
-            <div id="gmap_canvas"></div>
-            
-            <div class="container">
-            	<div class="row">
-                	<div class="col-md-4 col-lg-4">
-                    	<div class="contact">
-                        	<h2 class="uppercase">contact</h2>
-                            <p>Donec aliquam libero quam, non accumsan eros pellentesque nec. Sed ultrices, magna eget fermentum dapibus, arcu ante venenatis ante, in dapibus diam massa a urna. </p>
-                        	
-                        	<p class="address">
-                            1571 Hidden Terrace New York, NY, 13247<br><br>
-                            (917) 600-4570</p>
-                        
-                        	<div class="social">
-                                <a href="#">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                                
-                                <a href="#">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                                
-                                <a href="#">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
+        
+		
         
     
 		<!-- modernizr -->

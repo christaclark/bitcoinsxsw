@@ -161,7 +161,7 @@ h4 {
 /* TOP */
 
 #top {
-	background:url(../img/background.png) bottom center no-repeat;
+	background:url(../img/background.jpg) bottom center no-repeat;
 	width:100%;
 	max-height:auto;
 	height:600px;
@@ -449,7 +449,7 @@ h4 {
 }
 
 .venue {
-	background:url(../img/venue-bg.png) bottom center no-repeat;
+	background:url(../img/hilton.png) bottom center no-repeat;
 	width:100%;
 	height:auto;
 	min-height:540px;
