@@ -88,7 +88,7 @@
 
 
 body {
-	font-family:'sinkin_sans300_light';
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;;
 	font-size:1.4em;
 	line-height:1.5em;
 	overflow-x:hidden;
@@ -99,25 +99,25 @@ section {
 }
 
 h2 {
-	font-family:'sinkin_sans600_semibold';
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size:27px;
 	margin-top:0;
 	margin-bottom:40px;
 }
 
 h3 {
-	font-family:'sinkin_sans600_semibold';
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h4 {
-	font-family:'sinkin_sans400_regular';
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size:17px;
 	letter-spacing:-1px;
 	margin-bottom:5px;	
 }
 
 .lead {
-	font-family:'sinkin_sans400_regular';
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size:17px;
 	letter-spacing:1px;
 }
@@ -136,7 +136,7 @@ h4 {
 }
 
 .navbar-custom {
-	font-family:'sinkin_sans700_bold';
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;;
 	font-size:12px;
 	border-radius:0;
 	margin-bottom:0;
@@ -179,28 +179,6 @@ h4 {
 	margin-top:2em;
 }
 
-/* Countdown */
-
-.countdown {
-	display:table-cell;
-	vertical-align:middle;
-}
-
-#countdown {
-	margin:40px 0 90px 0;
-
-}
-
-#countdown .countdown_amount {
-	font-family:'Economica';
-	font-size:50px;
-	margin-bottom:10px;
-}
-
-#countdown .countdown_section {
-	font-family:'sinkin_sans200_x_light';
-	font-size:10px;
-}
 
 
 /* OVERVIEW */
@@ -224,40 +202,7 @@ h4 {
 	letter-spacing:0px;
 }
 
-/* Milestone */
 
-#milestone {
-	width: 100%;
-	padding:30px 0;
-	overflow: hidden;
-	z-index: 0;
-	height:auto;
-	display:table;
-}
-
-.fact {
-	text-transform:uppercase;
-	display:table-cell;
-	vertical-align:middle;
-
-}
-
-.fact .timer {
-	font-family:'sinkin_sans200_x_light'; 
-	font-size:55px;
-	line-height:55px;
-}
-
-.fact p {
-	font-size:13px;
-	font-family:'sinkin_sans700_bold';
-	letter-spacing:1px;
-}
-
-.fact i {
-	vertical-align:middle;
-	margin:10px 0 5px 0;
-}
 
 
 /* SPEAKER */
