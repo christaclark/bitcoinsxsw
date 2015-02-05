@@ -200,8 +200,12 @@ h4 {
 
 #overview .lead {
 	letter-spacing:0px;
+	
 }
 
+#overview p {
+	font-size: 21px;
+}
 
 
 
@@ -276,7 +280,7 @@ h4 {
 }
 
 .speaker .title {
-	font-family:'sinkin_sans200_x_light';
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size:12px;
 }
 
@@ -359,7 +363,7 @@ h4 {
 }
 
 .event .name {
-	font-family:'sinkin_sans600_semibold';
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size:14px;
 }
 
@@ -380,7 +384,7 @@ h4 {
 
 #days .item h4,
 #days .item h5 {
-	font-family:'sinkin_sans600_semibold';
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	margin-bottom:10px;
 	text-align:center;
 	cursor:pointer;
@@ -419,8 +423,14 @@ h4 {
 }
 
 #venue h4 {
-	font-family:'sinkin_sans600_semibold';
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	margin-bottom:15px;
+	font-size: 24px;
+}
+
+#venue p {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 20px;
 }
 
 .venue .address {
