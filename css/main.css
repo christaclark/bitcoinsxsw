@@ -118,7 +118,7 @@ h4 {
 
 .lead {
 	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size:17px;
+	font-size:15px;
 	letter-spacing:1px;
 }
 
@@ -224,8 +224,10 @@ h4 {
 /* SPEAKER */
 
 .speaker {
-	margin-bottom:30px;
+height:270px;
+margin-bottom: 30px;
 }
+
 
 .speaker img {
 	width:100%;
@@ -293,7 +295,7 @@ h4 {
 
 .speaker .title {
 	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size:12px;
+	font-size:16px;
 }
 
 
@@ -314,7 +316,7 @@ h4 {
 }
 
 #speaker-detail a {
-	font-size:13px;
+	font-size:14px;
 	margin-top:5px;
 }
 
@@ -367,8 +369,8 @@ h4 {
 }
 
 .event .icon .time {
-	font-family:'Economica';
-	font-size:22px;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:17px;
 	font-weight:700;
 }
 
@@ -499,7 +501,7 @@ h4 {
 }
 
 #testimonial h4 {
-	font-family:'sinkin_sans700_bold';
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	letter-spacing:1px;
 	margin:0;
 }
@@ -608,7 +610,7 @@ h4 {
 }
 
 .price-table-header .title {
-	font-family:'sinkin_sans400_regular';
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size:22px;
 	padding-bottom:20px;
 	line-height:22px;
@@ -742,7 +744,7 @@ select {
 /* BUTTONS */
 
 .button {
-	font-family:'sinkin_sans700_bold';
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 10px;
 	text-transform: uppercase;
 	border: none;
