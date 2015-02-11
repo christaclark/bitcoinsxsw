@@ -329,6 +329,14 @@ h4 {
 
 /* SCHEDULE */
 
+#schedule {
+	background:url(../img/agenda.png) bottom center no-repeat fixed;
+	padding:50px 0;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+}
+
 .event {
 	display:table;
 	width:100%;
@@ -342,7 +350,7 @@ h4 {
 
 .event h3 {
 	margin-top:0;
-	font-size:17px;
+	font-size: 24px;
 }
 
 .event .icon {
@@ -371,12 +379,12 @@ h4 {
 }
 
 .event .description p {
-	font-size:14px;
+	font-size:16px;
 }
 
 .event .name {
 	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size:14px;
+	font-size:16px;
 }
 
 
@@ -512,13 +520,7 @@ h4 {
 }
 
 
-#Schedule {
-	background:url(../img/subscribe-bg.png) bottom center no-repeat fixed;
-	padding:50px 0;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-}
+
 
 /* SUBSCRIBE */
 
