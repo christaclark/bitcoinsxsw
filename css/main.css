@@ -161,7 +161,7 @@ h4 {
 /* TOP */
 
 #top {
-	background:url(../img/1.png) bottom center no-repeat;
+	background:url(../img/background.jpg) bottom center no-repeat;
 	width:100%;
 	max-height:auto;
 	height:600px;
@@ -185,7 +185,13 @@ h4 {
 	margin-bottom: 200px;
 }
 
-
+#subscribe {
+	background:url(../img/subscribe-bg.png) bottom center no-repeat fixed;
+	padding:50px 0;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+}
 
 /* OVERVIEW */
 
