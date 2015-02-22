@@ -49,8 +49,9 @@ body {
 }
 
 .top-nav-collapse {
-	background-color: #34495e;
+	background-color: #efefef;
 }
+/* collapse dark blue #34495e*/
 
 .navbar-custom .navbar-toggle .icon-bar {
 	background:#34495e;
